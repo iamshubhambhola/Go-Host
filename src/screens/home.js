@@ -25,9 +25,26 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
             <div className="home-section-2">
-                {/* tanis idhr tu krio and try to keep the class names descriptive and distinct so that css files dont conflict */}
+                {//TANISH SHARMA
+                    //<Storefile />
+                    <div>
+                        <h2 className="ready">Ready to Try Go Host?</h2>
+                        <h2 className="deploy">Deploy your site in 30 seconds</h2>
+                        <div className="getText">
+                            <h2>Get Started</h2>
+                        </div>
+                        <div className="viewText">
+                            <h2>View Docs</h2>
+                        </div>
+                    </div>
+
+                }
             </div>
         </div>
-    )
+        )
+                
+        
+    
 }
