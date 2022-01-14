@@ -18,6 +18,11 @@ export default function Home() {
                         <div className="card-heading">IPFS Hosting</div>
                         <div className="btn">Learn More</div>
                     </div>
+                    <div className="card-0">
+                        <div><img src={storage} alt="ipfs"></img></div>
+                        <div className="card-heading">Storage</div>
+                        <div className="btn">Learn More</div>
+                    </div>
                 </div>
             </div>
             <div className="home-section-2">
