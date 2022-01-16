@@ -10,7 +10,7 @@ export default function Home() {
         <div>
             <Header />{/* ayush captain try to keep the class names descriptive and distinct so that css files dont conflict*/}
             <div className="home-section-1">
-                <div className="home-section-1-heading">Different Use Cases, <br/> Awesome Benefits.</div>
+                <div className="home-section-1-heading">Different Use Cases, <br /> Awesome Benefits.</div>
                 <p>All Fleek products are built on the underlying protocols that power the new Open Web (Internet Computer, IPFS, Textile, Filecoin. Ethereum). This allows you to enjoy the same awesome performance, resilience, trustlessness, and censorship-resistance benefits across all products and use cases. It’s easy to use, and low-code.
                 </p>
                 <div>
@@ -46,16 +46,16 @@ export default function Home() {
 
             <div className="home-section-3">
                 <div className="left3">
-                <div className="left3text">
-                    <h1>Store & Fetch Files</h1>
+                    <div className="left3text">
+                        <h1>Store & Fetch Files</h1>
+                        <br></br>
+                        <h1>on IPFS.</h1>
+                        <br></br>
+                        <h1>Fast as Fleek.</h1>
+                    </div>
                     <br></br>
-                    <h1>on IPFS.</h1>
-                    <br></br>
-                    <h1>Fast as Fleek.</h1>
-                </div>
-                <br></br>
-                
-                <h2 className="text">Use Fleek to upload, store & fetch files from IPFS in an easy to use, performant, and familiar way including UI, API and CLI interfaces. With S3 & Minio co has everything you need built into one seamless product.</h2>
+
+                    <h2 className="text">Use Fleek to upload, store & fetch files from IPFS in an easy to use, performant, and familiar way including UI, API and CLI interfaces. With S3 & Minio co has everything you need built into one seamless product.</h2>
 
                 </div>
 
@@ -64,8 +64,8 @@ export default function Home() {
             </div>
 
         </div>
-        )
-                
-        
-    
+    )
+
+
+
 }
