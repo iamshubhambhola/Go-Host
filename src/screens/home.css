@@ -149,6 +149,9 @@
     margin: 50px 0;
     height: 400px;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
   }
 
   .left3{
