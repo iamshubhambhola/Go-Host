@@ -1,5 +1,5 @@
 .header{
-    width: 100vw !important;
+    width: 100%;
     height: auto;
     /* background-color: #fff; */
     color: #fff;
@@ -9,7 +9,6 @@
     padding-bottom: 40px;
     margin: 0;
 }
-
 
 
 .logo{
@@ -63,7 +62,7 @@ button{
     color: #fff;
     border: none;
     border-radius: 6px;
-    padding: 10px !important;
+    padding: 10px 15px !important;
     cursor: pointer;
     transition: color 0.3s ease-in-out 0s;
 }
@@ -81,6 +80,19 @@ button:hover{
     /* padding-top: 3rem; */
 }
 
+@media screen and (max-width: 1380px) {
+    .header-section{
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 1170px) {
+    .header-section{
+        width: 80%;
+    }
+}
+ 
 .go-host-info{
     /* padding-right: 1em; */
 }
@@ -103,5 +115,8 @@ button:hover{
 
 .sample-image{
     width: 400px;
-    height: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 840px) { 
 }

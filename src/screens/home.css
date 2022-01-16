@@ -175,10 +175,16 @@
     background-color: yellow;
   }*/
 
-  .sec3img{
-      height: 350px;
+  .sec3img{ 
       width: 650px;
+      height: auto;
       margin-left: 170px;
+  }
+  @media screen and (max-width: 840px) {
+      .sec3img{
+          width: 400px;
+      }
+      
   }
 
   div.left3text{
