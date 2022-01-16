@@ -9,7 +9,7 @@ export default function Header() {
   return (
 
     <div className='header'>
-      <div className='curve'>
+      
         <nav className='navbar'>
           <a href='#'><h2>G<img src={logo} className='logo'></img>HOST</h2></a>
           <ul className='nav-links'>
@@ -32,7 +32,7 @@ export default function Header() {
             <img src={sample} className='sample-image' alt='sample'></img>
           </div>
         </div>
-      </div>
+      
     </div>
   );
 
