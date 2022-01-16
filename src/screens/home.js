@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/header'
 import "./home.css"
 import ipfs from "../images/ipfs.png"
+import sec3img from "../images/sec3img.png"
 import storage from "../images/storage.png"
 
 export default function Home() {
@@ -42,6 +43,26 @@ export default function Home() {
 
                 }
             </div>
+
+            <div className="home-section-3">
+                <div className="left3">
+                <div className="left3text">
+                    <h1>Store & Fetch Files</h1>
+                    <br></br>
+                    <h1>on IPFS.</h1>
+                    <br></br>
+                    <h1>Fast as Fleek.</h1>
+                </div>
+                <br></br>
+                
+                <h2 className="text">Use Fleek to upload, store & fetch files from IPFS in an easy to use, performant, and familiar way including UI, API and CLI interfaces. With S3 & Minio co has everything you need built into one seamless product.</h2>
+
+                </div>
+
+                <img className="sec3img" src={sec3img}></img>
+
+            </div>
+
         </div>
         )
                 
