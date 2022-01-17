@@ -21,7 +21,7 @@ export default function Home() {
           resilience, trustlessness, and censorship-resistance benefits across
           all products and use cases. It's easy to use, and low-code.
         </p>
-        <div>
+        <div className="section-1-cards">
           <div className="card-0">
             <div>
               <img src={ipfs} alt="ipfs"></img>
@@ -29,7 +29,7 @@ export default function Home() {
             <div className="card-heading">IPFS Hosting</div>
             <div className="btn">Learn More</div>
           </div>
-          <div className="card-0">
+          <div className="card-1">
             <div>
               <img src={storage} alt="ipfs"></img>
             </div>
