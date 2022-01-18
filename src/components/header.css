@@ -1,15 +1,30 @@
 .header{
     width: 100%;
     height: auto;
-    /* background-color: #fff; */
     color: #fff;
-    background-color: #0D1821;
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 28%;
+    border-bottom-right-radius: 28%;
     padding-bottom: 40px;
     margin: 0;
 }
 
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    float: right;
+    width: 26px;
+}
+
+#toggle{
+    display: none;
+}
+
+.logo-section{
+    display: flex;
+    align-items: flex-end;
+}
 
 .logo{
     /* margin-top: 2rem; */
@@ -34,9 +49,12 @@
 }
 
 .nav-links{
+    /* position: relative; */
     list-style: none;
     display: flex;
     align-items: center;
+    text-align: right;
+    /* line-height: 70px; */
 }
 
 .nav-links>li{
@@ -50,6 +68,7 @@
     font-family: var(--primary-font);
     font-weight: 300;
     font-size: 1em;
+    /* clear:right; */
     transition: color 0.3s ease-in-out 0s;
 }
 
@@ -74,6 +93,8 @@ button:hover{
 .header-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
     width: 60%;
     margin: auto;
     
@@ -86,16 +107,6 @@ button:hover{
     } 
 }
 
-@media screen and (max-width: 1170px) {
-    .header-section{
-        width: 80%;
-    }
-}
-
-.go-host-info{
-    /* padding-right: 1em; */
-}
-
 .go-host-info>h1{
     font-style: var(--primary-font);
     font-size: 2.5em;
@@ -105,17 +116,102 @@ button:hover{
 .go-host-info>p{
     font-style: var(--secondary-font);
     color: #D3D3D3;
-    max-width: 50%;
+    max-width: 500px;
+    font-size: 1.5em;
 }
 
-.gif{
-    padding-top: 3em;
+@media screen and (max-width: 1170px) {
+    .header-section{
+        width: 80%;
+    }
+
+    .go-host-info>p{
+        max-width: 60%;
+    }
 }
+
+/* .gif{
+    padding-top: 3em;
+} */
 
 .sample-image{
     width: 400px;
-    height: auto;
+    height: 250px;
 }
 
-@media screen and (max-width: 840px) { 
+@media screen and (max-width: 960px) {
+    /* .header-section{
+        width: 80%;
+    } */
+    .go-host-info>p{
+        max-width: 70%;
+    }
+    .sample-image{
+        width: 300px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 670px) { 
+    .header-section{
+        /* width: 80%; */
+        
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .go-host-info p, .go-host-info h1{
+        max-width: 80vw;
+    }
+    .gif{
+        padding-top: 40px ;
+    }
+    .sample-image{
+        width: 80vw; 
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    label{
+        display: block;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .nav-links>li{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+ 
+
+    #toggle:checked + .nav-links li{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sample-image{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .sample-image{
+        width: 120px;
+        height: 100px;
+    }
+
+    .header-section{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 150px) {
+    .sample-image{
+        width: 80px;
+        height: 50px;
+    }
 }
