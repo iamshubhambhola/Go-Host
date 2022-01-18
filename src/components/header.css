@@ -83,8 +83,7 @@ button:hover{
 @media screen and (max-width: 1380px) {
     .header-section{
         width: 70%;
-    }
-    
+    } 
 }
 
 @media screen and (max-width: 1170px) {
@@ -92,7 +91,7 @@ button:hover{
         width: 80%;
     }
 }
- 
+
 .go-host-info{
     /* padding-right: 1em; */
 }
