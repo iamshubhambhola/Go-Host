@@ -59,20 +59,19 @@ export default function Home() {
       <div className="home-section-3">
         <div className="left3">
           <div className="left3text">
-            <h1>Store & Fetch Files</h1>
+            <h1>Store & Fetch Files 
             <br></br>
-            <h1>on IPFS.</h1>
+             on IPFS. 
             <br></br>
-            <h1>Fast as Fleek.</h1>
-          </div>
-          <br></br>
+             Fast as Fleek.</h1>
+          </div> 
 
-          <h2 className="text">
+          <div className="text">
             Use Fleek to upload, store & fetch files from IPFS in an easy to
             use, performant, and familiar way including UI, API and CLI
             interfaces. With S3 & Minio co has everything you need built into
             one seamless product.
-          </h2>
+          </div>
         </div>
 
         <img className="sec3img" src={sec3img}></img>
